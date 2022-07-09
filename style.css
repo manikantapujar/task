@@ -1,0 +1,87 @@
+.container, .container-lg, .container-md, .container-sm, .container-xl{
+    margin-top: 30px;
+}
+.headingBox{
+    text-align: center;
+}
+.col-sm-5.contentbox {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+h1.heading {
+    font-size: 50px;
+    font-family: auto;
+    color: #32464f;
+}
+.btncolor{
+   background-color:#fc036b !important;
+   border-radius: 30px !important;
+
+}
+.btnBox{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+.col-sm-6.contentbox {
+    align-content: center;
+    justify-content: center;
+    display: grid;
+}
+p{
+    color:#2d231a;
+    font-family: auto;
+    font-size: 16px;
+}
+.footer {
+    text-align: center;
+    background: #a83295;
+}
+.row.imgContainer1 {
+    margin-bottom: 23px;
+}
+.col-sm-7.imgContainers {
+    align-content: center;
+    justify-content: center;
+    display: grid;
+}
+.container-fluid {
+    margin-top: 40px;
+}
+.underline {
+    border-bottom: 6px solid #fc036b;
+    width: 38%;
+    height: 2px;
+    border-radius: 3px;
+    margin-left: 31%;
+    margin-top: -2%;
+}
+.content {
+    margin-top: 5%;
+}
+.row.socialicon {
+    width: 16%;
+    margin-left: 42%;
+}
+.fImg{
+    height: 30px;
+}
+.mImg{
+    height: 18px !important;
+}
+@media(max-width:767px){
+
+
+.col-sm-7.imgContainers {
+    align-content: center;
+    justify-content: center;
+    display: grid;
+    text-align: center;
+}
+.row.imgContainer1 {
+    margin-bottom: 23px;
+    margin-top: 20px;
+}
+}
