@@ -84,4 +84,9 @@ p{
     margin-bottom: 23px;
     margin-top: 20px;
 }
+.fImg,.iImg,.lImg,.tImg {
+    height: 20px !important;
+   max-width: 20px !important;
+    width: 20px !important;
+}
 }
