@@ -13,6 +13,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.css" rel="stylesheet" />
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.js"></script>
 </head>
 
 <body>
@@ -34,26 +42,27 @@
                         horizons. Boost your confidence. Make memories
                     </p>
                 </div>
-                <div class="btnBox">
-                    <button type="button" class="btn    btncolor">BOOK YOURSELF</button>
+                <div class="btnBox ">
+                    <button type="button" class="btn btncolor" onclick="myFunction()">BOOK YOURSELF</button>
                 </div>
+                <p id="demo"></p>
             </div>
 
 
             <div class="col-sm-7 imgContainers">
                 <div class="row imgContainer1">
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 bg-image hover-zoom ">
                         <img src="./images/1.PNG" class="img-fluid" alt="...">
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 bg-image hover-zoom">
                         <img src="./images/2.PNG" class="img-fluid" alt="...">
                     </div>
                 </div>
                 <div class="row imgContainer2">
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 bg-image hover-zoom">
                         <img src="./images/3.PNG" class="img-fluid" alt="...">
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 bg-image hover-zoom">
                         <img src="./images/4.PNG" class="img-fluid" alt="...">
                     </div>
                 </div>
@@ -66,7 +75,8 @@
 
         <div class="footer">
             <div>
-                H.no 1st main 2nd lane Banglore | Phone 080 24643980 | <span>  <img src="./images/icons8-mail-50.png" class="img-fluid mImg" alt="..."></span> outdooradventure@gmail.com
+                H.no 1st main 2nd lane Banglore | Phone 080 24643980 | <span> <img src="./images/icons8-mail-50.png"
+                        class="img-fluid mImg" alt="..."></span> outdooradventure@gmail.com
             </div>
             <div class="row socialicon">
                 <div class="col slogo">
@@ -92,6 +102,13 @@
             </div>
         </div>
     </div>
+
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "Will be updating soon";
+            this.disabled = true;
+        }
+    </script>
 
 </body>
 

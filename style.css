@@ -71,6 +71,16 @@ p{
 .mImg{
     height: 18px !important;
 }
+.img-fluid:hover {opacity: 0.7;}
+.btn:hover {
+margin-left: 5px;
+background: #0dcce6;
+color: white;
+}
+p#demo {
+    text-align: center;
+    margin-top: 10px;
+}
 @media(max-width:767px){
 
 
